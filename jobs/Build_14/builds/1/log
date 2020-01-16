@@ -1,0 +1,24 @@
+Started by GitHub push by Manjanagouda024
+Running as SYSTEM
+Building remotely on [8mha:////4AOHOU776tGBIs+8an9j4tPrM1noIeCG47A1/5ThE7BXAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 in workspace /home/ec2-user/workspace/Build_14
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Manjanagouda024/jan_14.git
+ > git init /home/ec2-user/workspace/Build_14 # timeout=10
+Fetching upstream changes from https://github.com/Manjanagouda024/jan_14.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/Manjanagouda024/jan_14.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Manjanagouda024/jan_14.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Manjanagouda024/jan_14.git # timeout=10
+Fetching upstream changes from https://github.com/Manjanagouda024/jan_14.git
+ > git fetch --tags --progress -- https://github.com/Manjanagouda024/jan_14.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 9480ed4a068f114693d0035f7a1f4e12c8973f7c (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9480ed4a068f114693d0035f7a1f4e12c8973f7c # timeout=10
+Commit message: "java"
+First time build. Skipping changelog.
+Triggering a new build of [8mha:////4A6Ya7F7YKbJ1JrzIzGIxREFN6z+airAFjpyr907tYttAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JP2U1IKc/Mp4QxN9AP4Kq/7EAAAA[0mdeploy_14
+Finished: SUCCESS

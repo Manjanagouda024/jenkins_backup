@@ -1,0 +1,24 @@
+Started by user [8mha:////4FQQeUU1K+WEfGhEXptRxGHhSr3SgZ/p7rJligj4nsg+AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL9rNS87My8YgDcoqjWwgAAAA==[0mmanjanagouda
+Running as SYSTEM
+Building remotely on [8mha:////4AOHOU776tGBIs+8an9j4tPrM1noIeCG47A1/5ThE7BXAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 in workspace /home/ec2-user/workspace/jan_15
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Manjanagouda024/update.git
+ > git init /home/ec2-user/workspace/jan_15 # timeout=10
+Fetching upstream changes from https://github.com/Manjanagouda024/update.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/Manjanagouda024/update.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Manjanagouda024/update.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Manjanagouda024/update.git # timeout=10
+Fetching upstream changes from https://github.com/Manjanagouda024/update.git
+ > git fetch --tags --progress -- https://github.com/Manjanagouda024/update.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/branch222^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/branch222^{commit} # timeout=10
+Checking out Revision 097e51dfd827ec89435b91e01b950533140e359d (refs/remotes/origin/branch222)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 097e51dfd827ec89435b91e01b950533140e359d # timeout=10
+Commit message: " edieted"
+First time build. Skipping changelog.
+[jan_15] $ /bin/sh -xe /tmp/jenkins7751475513535916401.sh
+Finished: SUCCESS

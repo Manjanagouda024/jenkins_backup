@@ -1,0 +1,83 @@
+Started by user [8mha:////4FQQeUU1K+WEfGhEXptRxGHhSr3SgZ/p7rJligj4nsg+AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL9rNS87My8YgDcoqjWwgAAAA==[0mmanjanagouda
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/java1
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Manjanagouda024/repo1.git # timeout=10
+Fetching upstream changes from https://github.com/Manjanagouda024/repo1.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/Manjanagouda024/repo1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision f870fec00ea383f644c95746596c2320a5796241 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f870fec00ea383f644c95746596c2320a5796241 # timeout=10
+Commit message: "deleted jar"
+ > git rev-list --no-walk f870fec00ea383f644c95746596c2320a5796241 # timeout=10
+[java1] $ /bin/sh -xe /tmp/jenkins7072865463871292504.sh
++ cd /var/lib/jenkins/workspace/java1/java
++ mvn compile
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< jenkins_maven:biggest >------------------------
+[INFO] Building biggest 1
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ biggest ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/java1/java/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ biggest ---
+[INFO] No sources to compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.339 s
+[INFO] Finished at: 2020-01-14T19:28:24Z
+[INFO] ------------------------------------------------------------------------
++ mvn package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< jenkins_maven:biggest >------------------------
+[INFO] Building biggest 1
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ biggest ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/java1/java/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ biggest ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ biggest ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/java1/java/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ biggest ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ biggest ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ biggest ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [biggest] in [/var/lib/jenkins/workspace/java1/java/target/biggest-1]
+[INFO] Processing war project
+[INFO] Webapp assembled in [107 msecs]
+[INFO] Building war: /var/lib/jenkins/workspace/java1/java/target/biggest-1.war
+[INFO] 
+[INFO] --- maven-shade-plugin:2.2:shade (default) @ biggest ---
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /var/lib/jenkins/workspace/java1/java/target/biggest-1.war with /var/lib/jenkins/workspace/java1/java/target/biggest-1-shaded.war
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.310 s
+[INFO] Finished at: 2020-01-14T19:28:32Z
+[INFO] ------------------------------------------------------------------------
++ scp /var/lib/jenkins/workspace/java1/java/target ec2-user@18.219.231.134:/home/ec2-user/apache-tomcat-7.0.47/webapps
+Host key verification failed.
+lost connection
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

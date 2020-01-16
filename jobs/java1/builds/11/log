@@ -1,0 +1,27 @@
+Started by user [8mha:////4FQQeUU1K+WEfGhEXptRxGHhSr3SgZ/p7rJligj4nsg+AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL9rNS87My8YgDcoqjWwgAAAA==[0mmanjanagouda
+Running as SYSTEM
+Building remotely on [8mha:////4AOHOU776tGBIs+8an9j4tPrM1noIeCG47A1/5ThE7BXAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 in workspace /home/ec2-user/workspace/java1
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Manjanagouda024/repo1.git
+ > git init /home/ec2-user/workspace/java1 # timeout=10
+Fetching upstream changes from https://github.com/Manjanagouda024/repo1.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/Manjanagouda024/repo1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Manjanagouda024/repo1.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Manjanagouda024/repo1.git # timeout=10
+Fetching upstream changes from https://github.com/Manjanagouda024/repo1.git
+ > git fetch --tags --progress -- https://github.com/Manjanagouda024/repo1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision f870fec00ea383f644c95746596c2320a5796241 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f870fec00ea383f644c95746596c2320a5796241 # timeout=10
+Commit message: "deleted jar"
+ > git rev-list --no-walk f870fec00ea383f644c95746596c2320a5796241 # timeout=10
+[java1] $ /bin/sh -xe /tmp/jenkins3546585126886917589.sh
++ cd /var/lib/jenkins/workspace/java1/java
+/tmp/jenkins3546585126886917589.sh: line 2: cd: /var/lib/jenkins/workspace/java1/java: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
